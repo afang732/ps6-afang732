@@ -4,9 +4,6 @@ library(ggplot2)
 library(htmltools)
 library(rsconnect)
 install.packages('rsconnect')
-install.packages("rsconnect", lib='/Users/annafang/desktop/info201/ps6-afang732')
-
-
 
 setwd('/Users/annafang/desktop/info201/ps6-afang732')
 spotify <- read.csv("spotify_top_charts_22.csv")
