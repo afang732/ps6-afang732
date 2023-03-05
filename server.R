@@ -37,7 +37,7 @@ server <- function(input, output) {
       select(artist_names)
   })
   
-  output$artist_list <- renderText({
+  output$artist_names <- renderText({
     paste(filtered_data()$artist_names, collapse = ", ")
   })
   
